@@ -1,2 +1,1 @@
-# 2015-wcsea
-Content Migration: Beyond WXR
+# Object-Oriented Content Migration
