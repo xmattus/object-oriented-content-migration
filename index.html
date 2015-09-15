@@ -192,15 +192,15 @@ class Migrateable {
     }
 
     public function get_title() {
-        return empty( $this->item['title'] ) ? $this->item['title'] : '';
+        return ! empty( $this->item['title'] ) ? $this->item['title'] : '';
     }
 
     public function get_content() {
-    	return empty( $this->item['content'] ) ? $this->item['content'] : '';
+    	return ! empty( $this->item['content'] ) ? $this->item['content'] : '';
     }
 
     public function get_legacy_url() {
-    	return empty( $this->item['url'] ) ? $this->item['url'] : '';
+    	return ! empty( $this->item['url'] ) ? $this->item['url'] : '';
     }
 
     public function save() {
